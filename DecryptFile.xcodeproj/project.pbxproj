@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6B8E0922CAAEBA00847AC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B8E0822CAAEBA00847AC1 /* AppDelegate.m */; };
+		DD6B8E0C22CAAEBA00847AC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B8E0B22CAAEBA00847AC1 /* ViewController.m */; };
+		DD6B8E0E22CAAEBC00847AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6B8E0D22CAAEBC00847AC1 /* Assets.xcassets */; };
+		DD6B8E1122CAAEBC00847AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6B8E0F22CAAEBC00847AC1 /* Main.storyboard */; };
+		DD6B8E1422CAAEBC00847AC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B8E1322CAAEBC00847AC1 /* main.m */; };
+		DD6B8E1F22CAAEBC00847AC1 /* DecryptFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B8E1E22CAAEBC00847AC1 /* DecryptFileTests.m */; };
+		DD6B8E2A22CAAEBC00847AC1 /* DecryptFileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B8E2922CAAEBC00847AC1 /* DecryptFileUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD6B8E1B22CAAEBC00847AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6B8DFC22CAAEBA00847AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6B8E0322CAAEBA00847AC1;
+			remoteInfo = DecryptFile;
+		};
+		DD6B8E2622CAAEBC00847AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6B8DFC22CAAEBA00847AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6B8E0322CAAEBA00847AC1;
+			remoteInfo = DecryptFile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD6B8E0422CAAEBA00847AC1 /* DecryptFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecryptFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6B8E0722CAAEBA00847AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD6B8E0822CAAEBA00847AC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD6B8E0A22CAAEBA00847AC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD6B8E0B22CAAEBA00847AC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD6B8E0D22CAAEBC00847AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD6B8E1022CAAEBC00847AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD6B8E1222CAAEBC00847AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6B8E1322CAAEBC00847AC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD6B8E1522CAAEBC00847AC1 /* DecryptFile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DecryptFile.entitlements; sourceTree = "<group>"; };
+		DD6B8E1A22CAAEBC00847AC1 /* DecryptFileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecryptFileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6B8E1E22CAAEBC00847AC1 /* DecryptFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecryptFileTests.m; sourceTree = "<group>"; };
+		DD6B8E2022CAAEBC00847AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6B8E2522CAAEBC00847AC1 /* DecryptFileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecryptFileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6B8E2922CAAEBC00847AC1 /* DecryptFileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecryptFileUITests.m; sourceTree = "<group>"; };
+		DD6B8E2B22CAAEBC00847AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6B8E0122CAAEBA00847AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6B8E1722CAAEBC00847AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6B8E2222CAAEBC00847AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6B8DFB22CAAEBA00847AC1 = {
+			isa = PBXGroup;
+			children = (
+				DD6B8E0622CAAEBA00847AC1 /* DecryptFile */,
+				DD6B8E1D22CAAEBC00847AC1 /* DecryptFileTests */,
+				DD6B8E2822CAAEBC00847AC1 /* DecryptFileUITests */,
+				DD6B8E0522CAAEBA00847AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6B8E0522CAAEBA00847AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B8E0422CAAEBA00847AC1 /* DecryptFile.app */,
+				DD6B8E1A22CAAEBC00847AC1 /* DecryptFileTests.xctest */,
+				DD6B8E2522CAAEBC00847AC1 /* DecryptFileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6B8E0622CAAEBA00847AC1 /* DecryptFile */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B8E0722CAAEBA00847AC1 /* AppDelegate.h */,
+				DD6B8E0822CAAEBA00847AC1 /* AppDelegate.m */,
+				DD6B8E0A22CAAEBA00847AC1 /* ViewController.h */,
+				DD6B8E0B22CAAEBA00847AC1 /* ViewController.m */,
+				DD6B8E0D22CAAEBC00847AC1 /* Assets.xcassets */,
+				DD6B8E0F22CAAEBC00847AC1 /* Main.storyboard */,
+				DD6B8E1222CAAEBC00847AC1 /* Info.plist */,
+				DD6B8E1322CAAEBC00847AC1 /* main.m */,
+				DD6B8E1522CAAEBC00847AC1 /* DecryptFile.entitlements */,
+			);
+			path = DecryptFile;
+			sourceTree = "<group>";
+		};
+		DD6B8E1D22CAAEBC00847AC1 /* DecryptFileTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B8E1E22CAAEBC00847AC1 /* DecryptFileTests.m */,
+				DD6B8E2022CAAEBC00847AC1 /* Info.plist */,
+			);
+			path = DecryptFileTests;
+			sourceTree = "<group>";
+		};
+		DD6B8E2822CAAEBC00847AC1 /* DecryptFileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B8E2922CAAEBC00847AC1 /* DecryptFileUITests.m */,
+				DD6B8E2B22CAAEBC00847AC1 /* Info.plist */,
+			);
+			path = DecryptFileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6B8E0322CAAEBA00847AC1 /* DecryptFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6B8E2E22CAAEBC00847AC1 /* Build configuration list for PBXNativeTarget "DecryptFile" */;
+			buildPhases = (
+				DD6B8E0022CAAEBA00847AC1 /* Sources */,
+				DD6B8E0122CAAEBA00847AC1 /* Frameworks */,
+				DD6B8E0222CAAEBA00847AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecryptFile;
+			productName = DecryptFile;
+			productReference = DD6B8E0422CAAEBA00847AC1 /* DecryptFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD6B8E1922CAAEBC00847AC1 /* DecryptFileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6B8E3122CAAEBC00847AC1 /* Build configuration list for PBXNativeTarget "DecryptFileTests" */;
+			buildPhases = (
+				DD6B8E1622CAAEBC00847AC1 /* Sources */,
+				DD6B8E1722CAAEBC00847AC1 /* Frameworks */,
+				DD6B8E1822CAAEBC00847AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6B8E1C22CAAEBC00847AC1 /* PBXTargetDependency */,
+			);
+			name = DecryptFileTests;
+			productName = DecryptFileTests;
+			productReference = DD6B8E1A22CAAEBC00847AC1 /* DecryptFileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD6B8E2422CAAEBC00847AC1 /* DecryptFileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6B8E3422CAAEBC00847AC1 /* Build configuration list for PBXNativeTarget "DecryptFileUITests" */;
+			buildPhases = (
+				DD6B8E2122CAAEBC00847AC1 /* Sources */,
+				DD6B8E2222CAAEBC00847AC1 /* Frameworks */,
+				DD6B8E2322CAAEBC00847AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6B8E2722CAAEBC00847AC1 /* PBXTargetDependency */,
+			);
+			name = DecryptFileUITests;
+			productName = DecryptFileUITests;
+			productReference = DD6B8E2522CAAEBC00847AC1 /* DecryptFileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6B8DFC22CAAEBA00847AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Michael Powell";
+				TargetAttributes = {
+					DD6B8E0322CAAEBA00847AC1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DD6B8E1922CAAEBC00847AC1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DD6B8E0322CAAEBA00847AC1;
+					};
+					DD6B8E2422CAAEBC00847AC1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DD6B8E0322CAAEBA00847AC1;
+					};
+				};
+			};
+			buildConfigurationList = DD6B8DFF22CAAEBA00847AC1 /* Build configuration list for PBXProject "DecryptFile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6B8DFB22CAAEBA00847AC1;
+			productRefGroup = DD6B8E0522CAAEBA00847AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6B8E0322CAAEBA00847AC1 /* DecryptFile */,
+				DD6B8E1922CAAEBC00847AC1 /* DecryptFileTests */,
+				DD6B8E2422CAAEBC00847AC1 /* DecryptFileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6B8E0222CAAEBA00847AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6B8E0E22CAAEBC00847AC1 /* Assets.xcassets in Resources */,
+				DD6B8E1122CAAEBC00847AC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6B8E1822CAAEBC00847AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6B8E2322CAAEBC00847AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6B8E0022CAAEBA00847AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6B8E0C22CAAEBA00847AC1 /* ViewController.m in Sources */,
+				DD6B8E1422CAAEBC00847AC1 /* main.m in Sources */,
+				DD6B8E0922CAAEBA00847AC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6B8E1622CAAEBC00847AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6B8E1F22CAAEBC00847AC1 /* DecryptFileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6B8E2122CAAEBC00847AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6B8E2A22CAAEBC00847AC1 /* DecryptFileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD6B8E1C22CAAEBC00847AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6B8E0322CAAEBA00847AC1 /* DecryptFile */;
+			targetProxy = DD6B8E1B22CAAEBC00847AC1 /* PBXContainerItemProxy */;
+		};
+		DD6B8E2722CAAEBC00847AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6B8E0322CAAEBA00847AC1 /* DecryptFile */;
+			targetProxy = DD6B8E2622CAAEBC00847AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD6B8E0F22CAAEBC00847AC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6B8E1022CAAEBC00847AC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6B8E2C22CAAEBC00847AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD6B8E2D22CAAEBC00847AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD6B8E2F22CAAEBC00847AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DecryptFile/DecryptFile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4J76JGS785;
+				INFOPLIST_FILE = DecryptFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.DecryptFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD6B8E3022CAAEBC00847AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DecryptFile/DecryptFile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4J76JGS785;
+				INFOPLIST_FILE = DecryptFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.DecryptFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD6B8E3222CAAEBC00847AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4J76JGS785;
+				INFOPLIST_FILE = DecryptFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.DecryptFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecryptFile.app/Contents/MacOS/DecryptFile";
+			};
+			name = Debug;
+		};
+		DD6B8E3322CAAEBC00847AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4J76JGS785;
+				INFOPLIST_FILE = DecryptFileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.DecryptFileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecryptFile.app/Contents/MacOS/DecryptFile";
+			};
+			name = Release;
+		};
+		DD6B8E3522CAAEBC00847AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4J76JGS785;
+				INFOPLIST_FILE = DecryptFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.DecryptFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DecryptFile;
+			};
+			name = Debug;
+		};
+		DD6B8E3622CAAEBC00847AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4J76JGS785;
+				INFOPLIST_FILE = DecryptFileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.DecryptFileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DecryptFile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6B8DFF22CAAEBA00847AC1 /* Build configuration list for PBXProject "DecryptFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6B8E2C22CAAEBC00847AC1 /* Debug */,
+				DD6B8E2D22CAAEBC00847AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6B8E2E22CAAEBC00847AC1 /* Build configuration list for PBXNativeTarget "DecryptFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6B8E2F22CAAEBC00847AC1 /* Debug */,
+				DD6B8E3022CAAEBC00847AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6B8E3122CAAEBC00847AC1 /* Build configuration list for PBXNativeTarget "DecryptFileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6B8E3222CAAEBC00847AC1 /* Debug */,
+				DD6B8E3322CAAEBC00847AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6B8E3422CAAEBC00847AC1 /* Build configuration list for PBXNativeTarget "DecryptFileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6B8E3522CAAEBC00847AC1 /* Debug */,
+				DD6B8E3622CAAEBC00847AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6B8DFC22CAAEBA00847AC1 /* Project object */;
+}
