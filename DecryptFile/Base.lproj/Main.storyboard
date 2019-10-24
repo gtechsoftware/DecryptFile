@@ -730,7 +730,7 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VBp-nP-oDC" userLabel="Decrypt File">
-                                <rect key="frame" x="20" y="650" width="200" height="32"/>
+                                <rect key="frame" x="20" y="689" width="200" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Tma-P9-iRq" userLabel="Decrypt File">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -740,31 +740,67 @@
                                     <action selector="decryptButtonPressed:" target="XfG-lQ-9wD" id="Whr-0s-6Ei"/>
                                 </connections>
                             </button>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O93-h2-hRf" userLabel="Password">
-                                <rect key="frame" x="20" y="690" width="200" height="22"/>
+                            <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6t8-h0-Ij2">
+                                <rect key="frame" x="20" y="312" width="523" height="314"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Password" placeholderString="password" drawsBackground="YES" id="4TX-14-ldk">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yL6-RD-wLJ">
-                                <rect key="frame" x="20" y="325" width="500" height="300"/>
+                                <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="ibe-ey-kpJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="508" height="314"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView ambiguous="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="JbG-15-KnD">
+                                            <rect key="frame" x="0.0" y="0.0" width="508" height="314"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <size key="minSize" width="508" height="314"/>
+                                            <size key="maxSize" width="508" height="10000000"/>
+                                            <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        </textView>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="W09-8d-iKn">
+                                    <rect key="frame" x="-100" y="-100" width="225" height="15"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="2ck-0I-vdI">
+                                    <rect key="frame" x="508" y="0.0" width="15" height="314"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZu-Tv-9l1">
+                                <rect key="frame" x="20" y="650" width="240" height="26"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="0Nu-rb-Lgu">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
+                                <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="zGC-Mx-M8n">
+                                    <rect key="frame" x="0.0" y="0.0" width="225" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView ambiguous="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="4cg-n7-ky1">
+                                            <rect key="frame" x="0.0" y="0.0" width="225" height="26"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <size key="minSize" width="225" height="26"/>
+                                            <size key="maxSize" width="225" height="10000000"/>
+                                            <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        </textView>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="EHe-Mb-ymr">
+                                    <rect key="frame" x="-100" y="-100" width="225" height="15"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="t5S-xV-I5l">
+                                    <rect key="frame" x="225" y="0.0" width="15" height="26"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="decryptButton" destination="VBp-nP-oDC" id="Wee-oX-aCw"/>
+                        <outlet property="decryptTime" destination="4cg-n7-ky1" id="bpk-ii-Jf0"/>
                         <outlet property="fileTextField" destination="6OZ-xe-2BW" id="bKq-YE-8GS"/>
-                        <outlet property="outputText" destination="yL6-RD-wLJ" id="zzA-9l-XIC"/>
-                        <outlet property="passwordTextField" destination="O93-h2-hRf" id="tEk-4C-Cw2"/>
+                        <outlet property="outputText" destination="JbG-15-KnD" id="eFl-JU-Uwx"/>
                         <outlet property="selectButton" destination="Kr5-4h-83H" id="S59-yw-P7F"/>
                     </connections>
                 </viewController>

@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7CCE594EB5811BF63816C25 /* Pods_DecryptFile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC04CB41678B794ADCEF2969 /* Pods_DecryptFile.framework */; };
+		1F46BBFFA967B4702D4553C6 /* Pods_DecryptFile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FEDA42DA2C5A3CB16D033B /* Pods_DecryptFile.framework */; };
+		DD1C9B18235E6BB0005D107E /* libdylibForLabVIEW.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1C9B15235E6757005D107E /* libdylibForLabVIEW.dylib */; };
+		DD1C9B19235E6BB0005D107E /* libdylibForLabVIEW.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = DD1C9B15235E6757005D107E /* libdylibForLabVIEW.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		DD6B8E0922CAAEBA00847AC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B8E0822CAAEBA00847AC1 /* AppDelegate.m */; };
 		DD6B8E0C22CAAEBA00847AC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B8E0B22CAAEBA00847AC1 /* ViewController.m */; };
 		DD6B8E0E22CAAEBC00847AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6B8E0D22CAAEBC00847AC1 /* Assets.xcassets */; };
@@ -34,8 +36,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DD1C9B1A235E6BB0005D107E /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD1C9B19235E6BB0005D107E /* libdylibForLabVIEW.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		92FEDA42DA2C5A3CB16D033B /* Pods_DecryptFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecryptFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04A6C04A09DF859939B53D5 /* Pods-DecryptFile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecryptFile.release.xcconfig"; path = "Pods/Target Support Files/Pods-DecryptFile/Pods-DecryptFile.release.xcconfig"; sourceTree = "<group>"; };
+		DD1C9B15235E6757005D107E /* libdylibForLabVIEW.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdylibForLabVIEW.dylib; path = ../../../../../../usr/local/include/libdylibForLabVIEW.dylib; sourceTree = "<group>"; };
 		DD6B8E0422CAAEBA00847AC1 /* DecryptFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecryptFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6B8E0722CAAEBA00847AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD6B8E0822CAAEBA00847AC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,7 +71,6 @@
 		DD6B8E2922CAAEBC00847AC1 /* DecryptFileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecryptFileUITests.m; sourceTree = "<group>"; };
 		DD6B8E2B22CAAEBC00847AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFF051FFEF66447D5C0BEF33 /* Pods-DecryptFile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecryptFile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DecryptFile/Pods-DecryptFile.debug.xcconfig"; sourceTree = "<group>"; };
-		EC04CB41678B794ADCEF2969 /* Pods_DecryptFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecryptFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CCE594EB5811BF63816C25 /* Pods_DecryptFile.framework in Frameworks */,
+				DD1C9B18235E6BB0005D107E /* libdylibForLabVIEW.dylib in Frameworks */,
+				1F46BBFFA967B4702D4553C6 /* Pods_DecryptFile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +103,8 @@
 		34747ED71360EF1FAADA72B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC04CB41678B794ADCEF2969 /* Pods_DecryptFile.framework */,
+				DD1C9B15235E6757005D107E /* libdylibForLabVIEW.dylib */,
+				92FEDA42DA2C5A3CB16D033B /* Pods_DecryptFile.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,7 +185,8 @@
 				DD6B8E0022CAAEBA00847AC1 /* Sources */,
 				DD6B8E0122CAAEBA00847AC1 /* Frameworks */,
 				DD6B8E0222CAAEBA00847AC1 /* Resources */,
-				FE9088EDBF72D99172D1D1C0 /* [CP] Embed Pods Frameworks */,
+				9C58D72F90B9B67F03AAF8EE /* [CP] Embed Pods Frameworks */,
+				DD1C9B1A235E6BB0005D107E /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -219,7 +239,7 @@
 		DD6B8DFC22CAAEBA00847AC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Michael Powell";
 				TargetAttributes = {
 					DD6B8E0322CAAEBA00847AC1 = {
@@ -304,26 +324,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FE9088EDBF72D99172D1D1C0 /* [CP] Embed Pods Frameworks */ = {
+		9C58D72F90B9B67F03AAF8EE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DecryptFile/Pods-DecryptFile-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RNCryptor-objc/RNCryptor_objc.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-DecryptFile/Pods-DecryptFile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCryptor_objc.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-DecryptFile/Pods-DecryptFile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DecryptFile/Pods-DecryptFile-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DecryptFile/Pods-DecryptFile-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -499,14 +514,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DecryptFile/DecryptFile.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4J76JGS785;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = DecryptFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.DecryptFile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,14 +540,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DecryptFile/DecryptFile.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 4J76JGS785;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = DecryptFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelPowell.DecryptFile;
 				PRODUCT_NAME = "$(TARGET_NAME)";

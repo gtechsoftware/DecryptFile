@@ -7,15 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "RNCryptor.h"
-#import "RNDecryptor.h"
 
 @interface ViewController : NSViewController
+@property   NSData  *encryptionKey;
 @property   IBOutlet    NSTextField *fileTextField;
-@property   IBOutlet    NSTextField *passwordTextField;
+@property   IBOutlet    NSTextView *decryptTime;
 @property   IBOutlet   NSButton    *selectButton;
 @property   IBOutlet    NSButton    *decryptButton;
-@property   IBOutlet    NSTextField    *outputText;
+@property   IBOutlet    NSTextView    *outputText;
 -(IBAction)selectButtonPressed:(id)sender;
 -(IBAction)decryptButtonPressed:(id)sender;
 @end
